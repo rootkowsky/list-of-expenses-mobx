@@ -7,6 +7,9 @@ import {ExpensesTable} from "./views/ExpensesTable";
 import {ExpenseSubmitForm} from "./views/ExpenseSubmitForm";
 
 injectGlobal`
+	* {
+		font-family: Arial, sans-serif;
+	}
 	${emotionNormalize}
 `;
 
